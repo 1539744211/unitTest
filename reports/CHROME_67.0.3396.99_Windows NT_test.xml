@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="35.65" timestamp="Fri, 13 Jul 2018 09:17:21 GMT">
+  
+    <testcase name="Search by baidu" classname="test" time="35.65" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#spwd_unencrypt&gt; to be present for 5000 milliseconds.">    at Object.Search by baidu (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\tests\test.js:69:14)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;.am-section:nth-chlid(1) .button&#34; using: css selector
+    at Object.Search by baidu (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\tests\test.js:68:14)
+    at Module.call (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:796:13)
+    at C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:137:13)
+    at flush (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

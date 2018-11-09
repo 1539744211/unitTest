@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "单元测试案例",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "karma start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./start.js",
+    "selenium-setup": "node ./build/selenium-setup.js",
+    "selenium-start": "node ./build/selenium-start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^2.0.4",
+    "karma-coverage": "^1.1.2",
+    "nightwatch": "^0.9.21",
+    "selenium-standalone": "^6.15.1"
+  }
+}

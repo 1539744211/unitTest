@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test"
+    errors="1" failures="0" hostname="" id="" package="test" skipped="0"
+    tests="1" time="0.003000" timestamp="Fri, 13 Jul 2018 09:10:23 GMT">
+  
+    <testcase name="Search by baidu" classname="test" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Test / Search by baidu]:
+
+  ReferenceError: submmit_p is not defined
+    at Object.Search by baidu (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\tests\test.js:34:20)
+    at Module.call (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:796:13)
+    at C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:137:13)
+    at flush (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

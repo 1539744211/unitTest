@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #onmouseenter {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="input">
+            <input type="text" placeholder="用户名" name="username" id="username" />
+        </div>
+        <div class="input">
+            <input type="text" placeholder="手机号" name="mobile" id="mobile" />
+        </div>
+        <div class="input">
+            <input type="text" placeholder="密码" name="password" id="password" />
+        </div>
+        <button onclick="Submit()">
+            提交
+        </button>
+    </form>
+    <div id="onmouseenter" onmouseenter="Alert()">
+
+    </div>
+</body>
+<script>
+    window.onload = function () {
+        let Alert = _ => {
+            console.log('移入事件触发触发');
+        }
+        let Submit = _ => {
+            console.log('点击事件触发');
+            let username_val = document.getElementById("username").value;
+            let mobile_val = document.getElementById("mobile").value;
+            let password_val = document.getElementById("password").value;
+            alert("username:"+username_val+'/n'+'mobile:'+mobile_val+'/n'+'password:'+password_val);
+        }
+    }
+</script>
+
+</html>

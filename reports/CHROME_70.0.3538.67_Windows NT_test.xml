@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="1" time="29.82" timestamp="Fri, 09 Nov 2018 07:07:45 GMT">
+  
+    <testcase name="Search by baidu" classname="test" time="29.82" assertions="1">  <failure message="Timed out while waiting for element &lt;.payment_method_page&gt; to be present for 5000 milliseconds.">    at Object.Search by baidu (C:\Users\XwAdmin\Desktop\单元测试karma和jsmine\Demo\tests\test.js:59:14)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
